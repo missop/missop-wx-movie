@@ -1,0 +1,7 @@
+<view class='container'>
+  <image src="/images/avatar.jpg" class='avatar'></image>
+  <text class='name'>Hello!小蚂蚁</text>
+  <view>
+    <text class='btn'>开启小程序之旅</text>
+  </view>
+</view>
