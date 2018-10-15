@@ -1,0 +1,9 @@
+<view>
+  <swiper>
+    <swiper-item>
+      <image src=''></image>
+    </swiper-item>
+    <swiper-item>Content1</swiper-item>
+    <swiper-item>Content2</swiper-item>
+  </swiper>
+</view>
