@@ -1,3 +1,6 @@
+.root-view{
+  background-color: #f8f8f8;
+}
 .swiper-style{
   margin-bottom: 20rpx;
   width: 100%;
@@ -8,9 +11,46 @@
   height:600rpx;
 }
 .wrapper{
+  margin-bottom: 10px;
+  padding-top: 5px;
   border-top:1px solid #ededed;
   border-bottom:1px solid #ededed;
+  background-color: #fff;
 }
 .view1{
-  
+  margin-bottom: 10px;
+  font-size:0;
+}
+.view1 image{
+  margin-left: 10rpx;
+  margin-right: 30rpx;
+  display: inline-block;
+  vertical-align: middle;
+  width:56rpx;
+  height:56rpx;
+  border-radius: 50%;
+
+}
+.view1 text{
+  vertical-align: middle;
+  line-height: 56rpx;
+  font-size: 12px;
+  color: #666;
+}
+.tit{
+  margin-left: 10rpx;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.pics{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width:750rpx;
+}
+.desc-wrapper{
+  padding: 10rpx;
+  text-align: justify;
+  font-size: 14px;
+  color: #666;
 }

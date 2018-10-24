@@ -1,30 +1,26 @@
-<view>
-<!--swiper-item设置高宽是没有用的，必须设置swiper的高宽，而swiper-item自动设置为继承swiper的高宽  -->
-  <swiper class='swiper-style' indicator-dots='true' autoplay='true'
-  interval='5000' circular="true">
-    <swiper-item>
-      <image src='/images/wx.png' class='swiper-image'></image>
-    </swiper-item>
-    <swiper-item>
-     <image src='/images/vr.png' class='swiper-image'></image>
-    </swiper-item>
-    <swiper-item>
-     <image src='/images/iqiyi.png' class='swiper-image'></image>
-    </swiper-item>
-  </swiper>
-  <view class='wrapper'>
-    <view class='view1'>
-      <image src='/images/avatar/1.png'></image>
-      <text>Sep 20 2016</text> 
+<view class="root-view">
+    <!--swiper-item设置高宽是没有用的，必须设置swiper的高宽，而swiper-item自动设置为继承swiper的高宽  -->
+    <swiper class='swiper-style' indicator-dots='true' autoplay='true'
+            interval='5000' circular="true">
+        <swiper-item>
+            <image src='/images/wx.png' class='swiper-image'></image>
+        </swiper-item>
+        <swiper-item>
+            <image src='/images/vr.png' class='swiper-image'></image>
+        </swiper-item>
+        <swiper-item>
+            <image src='/images/iqiyi.png' class='swiper-image'></image>
+        </swiper-item>
+    </swiper>
+    <view class='wrapper'>
+        <view class='view1'>
+            <image src='/images/avatar/1.png'></image>
+            <text>Sep 20 2016</text>
+        </view>
+        <text class="tit">又是蟹肥虾壮时</text>
+        <image src='/images/post/crab.png' class="pics"></image>
+        <view class="desc-wrapper">
+            <text class="desc">菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；</text>
+        </view>
     </view>
-    <view>
-      <text>又是蟹肥虾壮时</text>
-    </view>
-    <view>
-      <image src='/images/post/crab.png'></image>
-    </view>
-    <text>
-菊黄蟹正肥，品尝秋之味。徐志摩把,“看初花的荻芦”和“到楼外楼吃蟹”,并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，
-    </text>
-  </view>
 </view>
